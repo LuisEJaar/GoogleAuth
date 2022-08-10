@@ -23,7 +23,7 @@ router.post('/', ensureAuth, async (req,res) => {
     }
 })
 
-//@desc Showw all public stories
+//@desc Show all public stories
 //@Route GET /stories
 router.get('/', ensureAuth, async (req,res) => {
     try {
